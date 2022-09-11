@@ -3,6 +3,9 @@
     color: white;
     height: 30px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
     
     
 }
@@ -11,13 +14,16 @@
     text-decoration: none;
 }
 #title {
-    float: left;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     padding: 5.75px;
 
 }
 #link {
-    float: right;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
     text-align: center;
     padding: 5.75px;
 }
@@ -25,11 +31,16 @@ html, body {
     margin: 0; 
     padding: 0;
     background-color: lightgoldenrodyellow;
+
+}
+#content {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
 }
 .box {
     height: 400px;
     width: 300px;
-    float: left;
     border: 1px solid orange;
     margin:25px;
     background-color: white;
